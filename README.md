@@ -39,7 +39,7 @@
 #### Create the config/ folder
 
 1. Copy and edit the named.conf file
-[named.conf file](https://github.com/victor-raphael17/cicd-pipeline-part-1/blob/main/bind/config/named.conf)
+[named.conf file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/named.conf)
 2. Create the zone file
 ![](./project-images/domain-zone.jpeg)
 3. Create the reverse DNS zone file
