@@ -1,0 +1,14 @@
+$TTL 1d
+$ORIGIN 0.168.192.in-addr.arpa.
+
+@   IN   SOA   dns.myprojectinfra.com. admin.myprojectinfra.com. (
+                  2025021701
+                  3600      
+                  600       
+                  604800     
+                  1800      
+               )
+
+   IN   NS   dns.myprojectinfra.com.
+
+11   IN   PTR   mail.myprojectinfra.com.

@@ -1,0 +1,19 @@
+$TTL 1d ; time to live
+$ORIGIN myprojectinfra.com. ; set the origin domain
+
+@   IN   SOA   dns.myprojectinfra.com. admin.myprojectinfra.com. ( ; primary nameserver
+                  2025020512 ; serial number (increment on update)
+                  3600       ; refresh period (1 hour)
+                  600        ; retry period (10 minutes)
+                  604800     ; expire time (7 days)
+                  1800       ; negative caching TTL (30 minutes)
+               )
+
+   IN   NS   dns.myprojectinfra.com.
+
+dns   IN   A   172.20.0.2 ; set 172.20.0.2 as the dns server in our domain
+mail  IN   A   <your IPv4> ; set your IP as the SMTP
+gitlab   IN   A   172.20.0.3 ; set gitlab ip
+autodiscover   IN CNAME   mail.myprojectinfra.com. ; minimal mailcow DNS config
+autoconfig   IN   CNAME   mail.myprojectinfra.com. ; minimal mailcow DNS config
+@   IN   MX   10   mail.myprojectinfra.com. ; minimal mailcow DNS config
