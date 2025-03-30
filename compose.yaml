@@ -14,7 +14,7 @@ services:
      - ./bind/run:/run/named
     networks:
       project-network:
-         ipv4_address: 172.20.0.2
+        ipv4_address: 172.20.0.2
   gitlab:
     container_name: gitlab
     image: gitlab/gitlab-ce:latest
