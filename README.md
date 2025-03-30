@@ -23,17 +23,18 @@
 
 1. Create compose.yaml file inside your project's root directory
 2. Create bind service
-3. Set container name
-4. Set environment variables
+4. Set container name
+5. Set container image
+6. Set environment variables
     - BIND9_USER=root
     - TZ=America/Sao_Paulo
-5. Port 53. If you are in newer Ubuntu versions, will may need to specify your IPv4, instead of just using “53:53”
-6. Set the volumes:
+7. Port 53. If you are in newer Ubuntu versions, will may need to specify your IPv4, instead of just using “53:53”
+8. Set the volumes:
     - /config:/etc/bind (your configuration files)
     - ./cache:/var/cache/bind (helps speed up repeated queries)
     - ./records:/var/lib/bind (stores zone files, DNS database files, and other related data)
     - ./run:/run/named (stores PID files, control sockets, and runtime data)
-7. Specify the custom subnet and IP
+9. Specify the custom subnet and IP
 
 #### Create the config/ folder
 
