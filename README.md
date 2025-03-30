@@ -121,7 +121,7 @@
 2. Set container name
 3. Set container image
 4. Set restart policy
-5. Set hostname to “gitlab.<your domain>”
+5. Set hostname to “gitlab.yourdomain.com”
 6. Set ports
 - '8080:80' (you won’t able to use 80:80 because mailcow is already using it)
 - '8443:443' (the same thing will happen here)
@@ -151,4 +151,4 @@
 ![](/project-images/gitlab-rails-3.png)
 ![](/project-images/gitlab-rails-4.png)
 
-#### Now you should be able to access gitlab.<your domain> in your browser and login with “root” and the password you defined
+#### Now you should be able to access gitlab.yourdomain.com in your browser and login with “root” and the password you defined
