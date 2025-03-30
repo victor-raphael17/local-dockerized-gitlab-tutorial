@@ -36,17 +36,19 @@
     - ./bind/run:/run/named (stores PID files, control sockets, and runtime data)
 9. Specify the custom subnet and IP
 
-#### Create the config/ folder
+#### Create the bind/ folder
 
-1. Copy and edit the named.conf file
+1. Create bind folder
+2. Create config directory inside bind folder
+3. Copy and edit the named.conf file
 [named.conf file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/named.conf)
-2. Create the zone file
+4. Create the zone file
 ![](./project-images/domain-zone.jpeg)
-3. Create the reverse DNS zone file
+5. Create the reverse DNS zone file
 ![](./project-images/reverse-zone.jpeg)
-4. Run the compose so we can install the dockerized mailcow
+6. Run the compose so we can install the dockerized mailcow
     - Check if bind container is fine
-5. Set the resolved.conf file to use your IP to resolve DNS
+7. Set the resolved.conf file to use your IP to resolve DNS
     - You should be able to ping your domain now
 
 ## Mailcow
