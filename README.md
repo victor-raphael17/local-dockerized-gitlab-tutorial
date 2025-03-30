@@ -30,10 +30,10 @@
     - TZ=America/Sao_Paulo
 7. Port 53. If you are in newer Ubuntu versions, will may need to specify your IPv4, instead of just using “53:53”
 8. Set the volumes:
-    - ./config:/etc/bind (your configuration files)
-    - ./cache:/var/cache/bind (helps speed up repeated queries)
-    - ./records:/var/lib/bind (stores zone files, DNS database files, and other related data)
-    - ./run:/run/named (stores PID files, control sockets, and runtime data)
+    - ./bind/config:/etc/bind (your configuration files)
+    - ./bind/cache:/var/cache/bind (helps speed up repeated queries)
+    - ./bind/records:/var/lib/bind (stores zone files, DNS database files, and other related data)
+    - ./bind/run:/run/named (stores PID files, control sockets, and runtime data)
 9. Specify the custom subnet and IP
 
 #### Create the config/ folder
