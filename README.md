@@ -95,7 +95,7 @@
     - [gitlab.rb template](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template)
     - Add the file to your gitlab folder
     - Edit the file (please leave only what is string in quotation marks)
-        - Set “external_url” to “https://gitlab.<your domain>”
+        - Set “external_url” to “https://gitlab.yourdomain.com”
         - Set “smtp_enable” to “true”
         - Set “smtp_address” to “mail.<your domain>”
         - Set “smtp_port” to “587”
