@@ -95,7 +95,7 @@
     - [gitlab.rb template](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template)
     - Add the file to your gitlab folder
     - Edit the file (please leave only what is string in quotation marks)
-        - Set “external_url” to “https://gitlab.yourdomain.com”
+        - Set “external_url” to “http://gitlab.yourdomain.com”
         - Set “smtp_enable” to “true”
         - Set “smtp_address” to “mail.yourdomain.com”
         - Set “smtp_port” to “587”
@@ -111,7 +111,7 @@
         - Set “gitlab_email_reply_to” to “gitlab@yourdomain.com”
         - Set “trusted_proxies” to your IPv4 range and your containers IP range
         - Set “store_initial_root_password” to “true”
-        - Set “registry_external_url” to “https://gitlab.yourdomain.com:5050”
+        - Set “registry_external_url” to “http://gitlab.yourdomain.com:5050”
         - Uncomment nginx registry section (registry_nginx)
 ![](/project-images/nginx-registry.jpeg)
 
