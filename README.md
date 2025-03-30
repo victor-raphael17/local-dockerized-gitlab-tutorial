@@ -40,7 +40,7 @@
 
 1. Create bind folder
 2. Create config directory inside bind folder
-3. Copy and edit the named.conf file
+3. Copy and edit the named.conf file to bind/config
 [named.conf file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/named.conf)
 4. Create the zone file [.zone file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/myprojectinfra.com.zone)
 ![](./project-images/domain-zone.jpeg)
