@@ -75,7 +75,7 @@
 #### Configuring Mailcow
 
 1. Change admin password
-2. Add your domain and restart SOgo container
+2. Add your domain and restart SOGo container
 3. Add GitLab, GitLab administrator and first dev mailboxes
 4. Test if you can access SOgo by logging with your gitlab
 
