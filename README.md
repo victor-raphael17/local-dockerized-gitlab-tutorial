@@ -42,9 +42,9 @@
 2. Create config directory inside bind folder
 3. Copy and edit the named.conf file
 [named.conf file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/named.conf)
-4. Create the zone file
+4. Create the zone file [.zone file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/myprojectinfra.com.zone)
 ![](./project-images/domain-zone.jpeg)
-5. Create the reverse DNS zone file
+5. Create the reverse DNS zone file [reverse DNS zone file](https://github.com/victor-raphael17/cicd-tutorial-part-1/blob/main/bind/config/192.168.0.zone)
 ![](./project-images/reverse-zone.jpeg)
 6. Run the compose so we can install the dockerized mailcow
     - Check if bind container is fine
