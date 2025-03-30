@@ -146,9 +146,6 @@
 
 1. [Reset root password](https://docs.gitlab.com/security/reset_user_password/#reset-your-root-password)
 2. Example
-![](/project-images/gitlab-rails-1.png)
-![](/project-images/gitlab-rails-2.png)
-![](/project-images/gitlab-rails-3.png)
-![](/project-images/gitlab-rails-4.png)
+![](/project-images/gitlab-rails-console.png)
 
 #### Now you should be able to access gitlab.yourdomain.com in your browser and login with “root” and the password you defined
