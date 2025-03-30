@@ -97,21 +97,21 @@
     - Edit the file (please leave only what is string in quotation marks)
         - Set “external_url” to “https://gitlab.yourdomain.com”
         - Set “smtp_enable” to “true”
-        - Set “smtp_address” to “mail.<your domain>”
+        - Set “smtp_address” to “mail.yourdomain.com”
         - Set “smtp_port” to “587”
-        - Set “smtp_user_name” to “gitlab@<yourdomain>”
-        - Set “smtp_password” to “<your gitlab mail password>”
-        - Set “smtp_domain” to “<yourdomain>”
+        - Set “smtp_user_name” to “gitlab@yourdomain.com”
+        - Set “smtp_password” to “your_gitlab_mail_password”
+        - Set “smtp_domain” to "yourdomain.com”
         - Set “smtp_authentication” to “login”
         - Set “smtp_enable_starttls_auto” to “true”
         - Set “smtp_tls” to “false”
         - Set “smtp_openssl_verify_mode” to “none”
-        - Set “gitlab_email_from” to “gitlab@<your domain>”
+        - Set “gitlab_email_from” to “gitlab@yourdomain.com”
         - Set “gitlab_email_display_name” to  "noreply"
-        - Set “gitlab_email_reply_to” to “gitlab@<your domain>”
+        - Set “gitlab_email_reply_to” to “gitlab@yourdomain.com”
         - Set “trusted_proxies” to your IPv4 range and your containers IP range
         - Set “store_initial_root_password” to “true”
-        - Set “registry_external_url” to “https://gitlab.<yourdomain>:5050”
+        - Set “registry_external_url” to “https://gitlab.yourdomain.com:5050”
         - Uncomment nginx registry section (registry_nginx)
 ![](/project-images/nginx-registry.jpeg)
 
