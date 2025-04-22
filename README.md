@@ -1,4 +1,4 @@
-# Dockerized CI/CD Pipeline: GitLab, Mailcow, BIND & Runner Video Guide - Part 1
+# Dockerized GitLab, Mailcow, BIND
 
 ## Preparing your PC
 
