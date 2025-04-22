@@ -130,9 +130,7 @@
 7. Set "dns" to bind container's IP
 8. According to GitLab documentation, you must specify this volumes:
 ![](/project-images/gitlab-volumes.png)
-9. We’ll also need specify the path for our gitlab.rb file
-./gitlab/gitlab.rb:/etc/gitlab/gitlab.rb
-./gitlab/resolv.conf:/etc/resolv.conf
+9. We’ll also need specify the path to our gitlab.rb file "./gitlab/gitlab.rb:/etc/gitlab/gitlab.rb" and resolv.conf file "./gitlab/resolv.conf:/etc/resolv.conf"
 10. Set “shm_size” to “256m”
 11. Set networks to the subnet that we created earlier
 
